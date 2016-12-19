@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Anketa - Marshall</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+
+		<script src="./bootstrap/js/bootstrap.min.js"></script>
+
+		<link type='text/css' rel='stylesheet' href='style.css' />
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'/>
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="script.js"></script>
+		<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+	</head>
+
+	<body>
+		<div class='wrapper'>
+			<header>
+				<div class='logo'></div>
+				<nav>
+					<a href='index.html'>Sākums</a>
+					<a href='galerija.html'>Galerija</a>
+					<a href='kontakti.html'>Kontakti</a>
+					<a href='anketka.html'>Anketa</a>
+				</nav>
+			</header>
+
+			<main>
+				<form>
+					<table>
+						<tr>
+							<td>
+								Jūsu vārds:
+							</td>
+							<td>
+								<input type='text' id='name' style='width: 100%;'/>
+								<span id='nameMessage'></span>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								Jūsu e-pasts:
+							</td>
+							<td>
+								<input type='text' id='email' style='width: 100%;'/>
+								<span id='emailMessage'></span>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								Jūsu tālrunis:
+							</td>
+							<td>
+								<input type='text' id='phone' style='width: 100%;'/>
+								<span id='phoneMessage'></span>
+							</td>
+						</tr>
+
+						<tr>
+							<td colspan='2'>
+								Jūsu īsziņa:<br/>
+								<textarea id='teksts' style='min-width: 300px; height: 100px;'></textarea>
+							</td>
+						</tr>
+
+						<tr>
+							<td colspan='2' style='text-align: center;'>
+								<input type='submit' id='submitButt' value='Aizsūtīt'/>
+							</td>
+						</tr>
+
+					</table>
+				</form>
+			</main>
+
+			<footer>
+				<div class='left'>Sabine Ukolova D3-3 ©</div>
+				<div class='right'>All rights reserved</div>
+			</footer>
+		</div>
+	</body>
+</html>

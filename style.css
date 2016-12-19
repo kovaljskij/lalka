@@ -1,0 +1,88 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	background: #232221;
+	margin: 0;
+	color: #969696;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	margin: 0;
+	margin-bottom: 5px;
+}
+
+.wrapper {
+	background: #131312;
+	padding: 0;
+}
+
+header {
+	height: 81px;
+	background: #2D882D;
+	border: 1px solid black;
+	border-top: none;
+}
+
+.logo {
+	background: url('weblogo.png') no-repeat center;
+	width: 351px;
+	height: 81px;
+	margin-left: 15px;
+	float: left;
+}
+
+nav {
+	float: right;
+	height: 81px;
+	line-height: 81px;
+}
+
+nav a {
+	display: block;
+	float: left;
+	color: black;
+	padding: 0 15px;
+	font-size: 1.3em;
+}
+
+nav a:hover {
+	background: black;
+	color: white;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+footer {
+	background: #2D882D;
+	color: black;
+	border: 1px solid black;
+	border-top: none;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+}
+
+main {
+	padding: 15px;
+	overflow: hidden;
+}
+
+.galerija a {
+	display: block;
+	float: left;
+	padding: 5px;
+}
+
+.galerija a img {
+	width: 300px;
+}
